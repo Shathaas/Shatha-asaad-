@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shatha Alaa Asaad</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            background: radial-gradient(circle, #1a1a2e, #16213e, #0f3460);
+        }
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+            background: #0f3460;
+            border-bottom: 2px solid #1a1a2e;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #dcdde1;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .about-me {
+            margin-bottom: 3rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #00aaff;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #00aaff;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #0f3460;
+            border-top: 2px solid #1a1a2e;
+            font-size: 0.9rem;
+            color: #dcdde1;
+        }
+        .stars {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            overflow: hidden;
+        }
+        .stars::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: url('https://i.imgur.com/RvATQPc.png') repeat;
+            opacity: 0.4;
+            animation: move-stars 30s linear infinite;
+        }
+        @keyframes move-stars {
+            from { transform: translateY(0); }
+            to { transform: translateY(-1000px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="stars"></div>
+    <header>
+        <h1>Shatha Alaa Asaad</h1>
+        <p>High School Student | Studying General Path</p>
+    </header>
+    <main class="container">
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>Hello! My name is Shatha Alaa Asaad, and I’m a high school student currently exploring the general path of studies. I have a passion for learning, exploring the unknown, and dreaming big, much like the vast universe above us.</p>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>If you’d like to get in touch with me, feel free to reach out:</p>
+            <p><a href="mailto:shatha@example.com">shatha@example.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Shatha Alaa Asaad</p>
+    </footer>
+</body>
+</html>
